@@ -96,9 +96,12 @@ body {
 }
 
 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 50px;
-    border-color: #FFE68C;
+    border: 1px solid #FFE68C;
     background-color: transparent;
     color: white;
     border-radius: 25px;
@@ -109,7 +112,7 @@ body {
     user-select: none;
 }
 
-.btn:hover {
+.btn:hover, .btn a:hover {
     background-color: #FFE68C;
     color: black;
     user-select: none;
